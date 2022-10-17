@@ -15,6 +15,11 @@ print("First print")
 
     }
 
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        print("Seconf print")
+    }
+    
 }
 
